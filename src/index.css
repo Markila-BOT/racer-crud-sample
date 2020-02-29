@@ -11,3 +11,9 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+div[disabled] {
+  pointer-events: none;
+  background-color: #bbb;
+  opacity: 0.7;
+}
